@@ -1,0 +1,76 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0
+}
+
+nav ul {
+  background-color: #ededed;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 10px;
+  display: inline-block;
+  background-color: #ededed;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 3px solid #ededed;
+}
+
+/* :hover qual o estilo a ser aplicado quando passar o mouse sobre o elemento */
+nav ul li a:hover {
+  background-color: #d6d6d6;
+  color: #6d6d6d;
+  border-bottom: 3px solid #f00;
+}
+
+article, header {
+  margin: 10px;
+}
+
+footer p {
+  text-align: center;
+  font-style: italic;
+  color: #00f;
+  clear: both;
+}
+
+img {
+  width: 350px;
+  height: 250px;
+  float: left;
+  margin-right: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+th, td {
+  padding: 10px;
+}
+
+thead tr {
+  border-bottom: solid 3px #f00;
+}
+
+tbody tr:hover {
+  background-color: greenyellow;
+}
+
+tfoot {
+  background-color: #6d6d6d;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+}
